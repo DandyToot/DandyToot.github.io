@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="pricesXML.css" ?>
+<!--
+	This document contains data on SJB Pet Boutique holiday specials
+	Filename: prices.xml
+	Author: Colby Arvin
+	Date: 11/5/18
+-->
+
+<products xmlns="http://example.com/sjbpetboutique/products">
+	<message>
+		<![CDATA[
+		All prices subject to change. Prices can not be matched. These sample guitars are not reflective of all guitars in stock at our store. ]]>
+	<product>
+		<productName>Fender American Professional Stratocaster</productName>
+		<manufacturer>Fender</manufacturer>
+		<description>Fender's headlining guitar for decades - American made.</description>
+		<price currency="USD">$1399.99</price>
+	</product>
+		<product>
+		<productName>Ernie Ball Music Man Majesty</productName>
+		<manufacturer>Ernie Ball</manufacturer>
+		<description>From the band Dream Theater, this is John Petrucci's signature guitar.</description>
+		<price currency="USD">$2199.99</price>
+	</product>
+	<product>
+		<productName>Ibanez Iron Label RGD RGDIX6PB</productName>
+		<manufacturer>Ibanez</manufacturer>
+		<description>Using their signature Wizard 3 neck, and EMG pickups, Ibanez makes a shred-worthy guitar.</description>
+		<price currency="USD">$999.99</price>
+	</product>
+	<product>
+		<productName>Gibson Les Paul</productName>
+		<manufacturer>Gibson</manufacturer>
+		<description>A classic design for a modern era, Gibon's Les Paul style is sure to please.</description>
+		<price currency="USD">$1500.00</price>
+	</product>
+	<product>
+		<productName>Taylor Big Baby Taylor</productName>
+		<manufacturer>Taylor</manufacturer>
+		<description>Classic Taylor sound in an affordable box, this acoustic will make everyone fall in love with it.</description>
+		<price currency="USD">$499.99</price>
+	</product>
+	<product>
+		<productName>Jackson JS32 Warrior</productName>
+		<manufacturer>Jackson</manufacturer>
+		<description>An iconic, sharp, design built for shredding, this Jackson will squeal.</description>
+		<price currency="USD">$599.99</price>
+	</product>
+	<product>
+		<productName>Guitar Repair</productName>
+		<manufacturer>Our guitar repair prices will vary depending on the service needed.</manufacturer>
+		<description>Whether its changing some pickups, or replacing a part, we can do it all. Just give us a call or bring it in!</description>
+		<price currency="USD">$9.99-200.00</price>
+	</products>
