@@ -10,11 +10,13 @@
    </head>
 
    <body>
-      <script>
-        function showImg();
-        var imgNumber = randomInteger(9);
-        document.write("<img src='" + imgNumber + ".png'/>");
-      </script>
+<script src="gen.js"></script>
+    <script>
+      function showImg()  {
+      var imgNumber = randomInteger(9);
+      document.write("<img src='" + imgNumber + ".png' alt=''/>");
+      }
+    </script>
 
       <header>
          <img src="doubletreble.jpeg" alt="doubletreble" usemap="#logomap" />
@@ -60,11 +62,6 @@
                   showImg();
                   showImg();
                   </script>
-                  <img src="0.png">
-                  <img src="3.png">
-                  <img src="6.png">
-                  <img src="5.png">
-                  <img src="5.png">
                </td>
             </tr>
           </table>

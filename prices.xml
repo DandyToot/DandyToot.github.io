@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/css" href="pricesXML.css" ?>
 <!--
-	This document contains data on SJB Pet Boutique holiday specials
 	Filename: prices.xml
 	Author: Colby Arvin
 	Date: 11/5/18
@@ -11,6 +10,7 @@
 	<message>
 		<![CDATA[
 		All prices subject to change. Prices can not be matched. These sample guitars are not reflective of all guitars in stock at our store. ]]>
+	</message>
 	<product>
 		<productName>Fender American Professional Stratocaster</productName>
 		<manufacturer>Fender</manufacturer>
@@ -52,4 +52,5 @@
 		<manufacturer>Our guitar repair prices will vary depending on the service needed.</manufacturer>
 		<description>Whether its changing some pickups, or replacing a part, we can do it all. Just give us a call or bring it in!</description>
 		<price currency="USD">$9.99-200.00</price>
+	</product>
 	</products>
