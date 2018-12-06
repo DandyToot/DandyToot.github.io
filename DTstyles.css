@@ -1,16 +1,4 @@
-﻿/*
-   New Perspectives on HTML
-   Tutorial 2
-   Tutorial Case
-
-   CAMShots Style Sheet
-   Author: Gerry Hayward
-   Date:   3/1/2014
-
-   Filename:         camstyles.css
-   Supporting Files: none
-
-*/
+﻿
 
 /* Section Styles */
 #homepara {
@@ -46,11 +34,6 @@ width: 100%;
 text-align: center;
 }
 
-nav {
-display: block;
-width: 100%;
-}
-
 section nav {
 font-size: 0.9em;
 text-align: center;
@@ -71,7 +54,7 @@ float: right;
 width: 30%;
 height: 25px;
 text-align: center;
-border: 2px solid black;
+border: 3px solid black;
 background-color: rgb(43, 112, 232);
 line-height: 1.5em;
 margin: 0px 4px 6px 2px;
@@ -134,17 +117,28 @@ font-weight: normal;
 text-align: center;
 margin: 10px 55px;
 line-height: 1em;
+color: white;
 }
 
 aside figure {
 display: block;
 width: 90%;
 margin: 1px auto;
+background-color: black;
+border: solid;
+border-color: rgb(43, 112, 232);
+margin: 5px 10px;
+width: 90%;
 }
 
 aside figure img {
 display: block;
 margin: 2px auto;
+
+}
+aside figure img:hover {
+   opacity: 0.5;
+   filter: alpha(opacity=50);
 }
 
 aside figure figcaption {
@@ -155,6 +149,7 @@ line-height: 1em;
 text-align: center;
 font-style: italic;
 font-size: 0.7em;
+color: white;
 }
 
 aside li {
@@ -266,7 +261,7 @@ padding-bottom: 30px;
 /*Img Styles */
 
 
-figure {
+figure.guitars {
 	float: right;
 	text-align: center;
 	font-style: italic;
@@ -281,12 +276,15 @@ figure {
 
 /* Table Styles */
 table {
-   border: 1px solid blue; 
+   border: 2px solid blue; 
    font-size: 14px; 
    margin-top: 0px; 
    margin-bottom: 20px;
-   width: 500px;
+   width: 70%;
+   margin-left: 15%;
+   margin-right: 15%;
    font-family: Arial, Verdana, sans-serif;
+
 }
 th {
    background-color: black; 
@@ -313,4 +311,22 @@ td a:hover {
 
 td.center {
    text-align: center;
+}
+
+/* Button styles */
+#myBtn {
+bottom: 10px;
+float: right;
+right: 18.5%;
+left: 77.25%;
+max-width: 30px;
+width: 100%;
+font-size: 12px;
+padding: .5px;
+border-radius: 4px;
+color: white;
+background-color: red;
+}
+#myBtn:hover {
+   background-color: #555;
 }
